@@ -1,0 +1,35 @@
+{
+  "name": "telegram-contact-bot",
+  "version": "1.0.0",
+  "description": "Comprehensive Telegram bot for managing personal contacts with birthdays, holidays, and custom reminders",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js",
+    "test": "node test.js",
+    "test:apps-script": "node test-apps-script.js",
+    "quickstart": "./quickstart.sh"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "contacts",
+    "reminders",
+    "birthdays",
+    "holidays",
+    "google-sheets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "moment-timezone": "^0.5.43",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "pm2": "^6.0.8"
+  }
+}

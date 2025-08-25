@@ -1,0 +1,224 @@
+{
+  "christian": {
+    "christmas": {
+      "name": "Christmas",
+      "date": "12-25",
+      "type": "fixed"
+    },
+    "epiphany": {
+      "name": "Epiphany",
+      "date": "01-06",
+      "type": "fixed"
+    },
+    "all_saints": {
+      "name": "All Saints' Day",
+      "date": "11-01",
+      "type": "fixed"
+    },
+    "easter": {
+      "name": "Easter Sunday",
+      "type": "calculated",
+      "calculation": "easter"
+    },
+    "good_friday": {
+      "name": "Good Friday",
+      "type": "calculated",
+      "calculation": "good_friday"
+    },
+    "palm_sunday": {
+      "name": "Palm Sunday",
+      "type": "calculated",
+      "calculation": "palm_sunday"
+    },
+    "ash_wednesday": {
+      "name": "Ash Wednesday",
+      "type": "calculated",
+      "calculation": "ash_wednesday"
+    },
+    "pentecost": {
+      "name": "Pentecost",
+      "type": "calculated",
+      "calculation": "pentecost"
+    }
+  },
+  "jewish": {
+    "rosh_hashanah": {
+      "name": "Rosh Hashanah",
+      "type": "calculated",
+      "calculation": "rosh_hashanah"
+    },
+    "yom_kippur": {
+      "name": "Yom Kippur",
+      "type": "calculated",
+      "calculation": "yom_kippur"
+    },
+    "passover": {
+      "name": "Passover",
+      "type": "calculated",
+      "calculation": "passover"
+    },
+    "sukkot": {
+      "name": "Sukkot",
+      "type": "calculated",
+      "calculation": "sukkot"
+    },
+    "shavuot": {
+      "name": "Shavuot",
+      "type": "calculated",
+      "calculation": "shavuot"
+    },
+    "hanukkah": {
+      "name": "Hanukkah",
+      "type": "calculated",
+      "calculation": "hanukkah",
+      "duration": 8
+    },
+    "purim": {
+      "name": "Purim",
+      "type": "calculated",
+      "calculation": "purim"
+    },
+    "tu_bishvat": {
+      "name": "Tu BiShvat",
+      "type": "calculated",
+      "calculation": "tu_bishvat"
+    },
+    "lag_baomer": {
+      "name": "Lag BaOmer",
+      "type": "calculated",
+      "calculation": "lag_baomer"
+    }
+  },
+  "muslim": {
+    "eid_al_fitr": {
+      "name": "Eid al-Fitr",
+      "type": "calculated",
+      "calculation": "eid_al_fitr"
+    },
+    "eid_al_adha": {
+      "name": "Eid al-Adha",
+      "type": "calculated",
+      "calculation": "eid_al_adha"
+    },
+    "mawlid": {
+      "name": "Mawlid an-Nabi",
+      "type": "calculated",
+      "calculation": "mawlid"
+    },
+    "laylat_al_qadr": {
+      "name": "Laylat al-Qadr",
+      "type": "calculated",
+      "calculation": "laylat_al_qadr"
+    },
+    "ashura": {
+      "name": "Ashura",
+      "type": "calculated",
+      "calculation": "ashura"
+    }
+  },
+  "hindu": {
+    "diwali": {
+      "name": "Diwali",
+      "type": "calculated",
+      "calculation": "diwali"
+    },
+    "holi": {
+      "name": "Holi",
+      "type": "calculated",
+      "calculation": "holi"
+    },
+    "navratri": {
+      "name": "Navratri",
+      "type": "calculated",
+      "calculation": "navratri"
+    },
+    "dussehra": {
+      "name": "Dussehra",
+      "type": "calculated",
+      "calculation": "dussehra"
+    },
+    "krishna_janmashtami": {
+      "name": "Krishna Janmashtami",
+      "type": "calculated",
+      "calculation": "krishna_janmashtami"
+    }
+  },
+  "buddhist": {
+    "buddha_birthday": {
+      "name": "Buddha's Birthday",
+      "type": "calculated",
+      "calculation": "buddha_birthday"
+    },
+    "vesak": {
+      "name": "Vesak Day",
+      "type": "calculated",
+      "calculation": "vesak"
+    }
+  },
+  "american": {
+    "new_year": {
+      "name": "New Year's Day",
+      "date": "01-01",
+      "type": "fixed"
+    },
+    "mlk_day": {
+      "name": "Martin Luther King Jr. Day",
+      "type": "calculated",
+      "calculation": "third_monday_january"
+    },
+    "presidents_day": {
+      "name": "Presidents' Day",
+      "type": "calculated",
+      "calculation": "third_monday_february"
+    },
+    "memorial_day": {
+      "name": "Memorial Day",
+      "type": "calculated",
+      "calculation": "last_monday_may"
+    },
+    "independence_day": {
+      "name": "Independence Day",
+      "date": "07-04",
+      "type": "fixed"
+    },
+    "labor_day": {
+      "name": "Labor Day",
+      "type": "calculated",
+      "calculation": "first_monday_september"
+    },
+    "columbus_day": {
+      "name": "Columbus Day",
+      "type": "calculated",
+      "calculation": "second_monday_october"
+    },
+    "veterans_day": {
+      "name": "Veterans Day",
+      "date": "11-11",
+      "type": "fixed"
+    },
+    "thanksgiving": {
+      "name": "Thanksgiving",
+      "type": "calculated",
+      "calculation": "fourth_thursday_november"
+    },
+    "black_friday": {
+      "name": "Black Friday",
+      "type": "calculated",
+      "calculation": "day_after_thanksgiving"
+    }
+  },
+  "national": {
+    "peruvian_independence": {
+      "name": "Peruvian Independence Day",
+      "date": "07-28",
+      "type": "fixed",
+      "country": "peru"
+    },
+    "dominican_independence": {
+      "name": "Dominican Independence Day",
+      "date": "02-27",
+      "type": "fixed",
+      "country": "dominican_republic"
+    }
+  }
+}
